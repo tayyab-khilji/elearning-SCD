@@ -7,15 +7,24 @@ class ELearning {
         int students[];
 
     ELearning(int a){
-        cout >> a;
+        cout << a;
     }
     private: 
         void getStudents();
         void getCourses();
-}
+};
+
+class AuthUser{
+    private:
+        char username;
+        char password;
+    bool authenticateUser(){
+        cout << "authenticated";
+    }
+};
 
 int main() {
 
-    new ELearning();
+    const ELearning elearning =  ELearning();
     return 0;
 }
