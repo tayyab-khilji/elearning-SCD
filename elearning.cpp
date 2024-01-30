@@ -12,6 +12,12 @@ class ELearning {
     private: 
         void getStudents();
         void getCourses();
+};
+
+class Ebooks{
+    private: 
+        string name;
+        string owner;
 }
 
 int main() {
