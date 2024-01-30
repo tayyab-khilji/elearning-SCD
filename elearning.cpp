@@ -14,7 +14,8 @@ class ELearning {
         void getCourses();
 }
 
-int main(){
+int main() {
+
     new ELearning();
     return 0;
 }
