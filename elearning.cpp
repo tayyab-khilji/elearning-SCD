@@ -22,6 +22,11 @@ class AuthUser{
         cout << "authenticated";
     }
 };
+class Ebooks{
+    private: 
+        string name;
+        string owner;
+}
 
 int main() {
 
