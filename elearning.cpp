@@ -15,7 +15,6 @@ class ELearning {
 }
 
 int main(){
-
     new ELearning();
     return 0;
 }
